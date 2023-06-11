@@ -1,0 +1,6 @@
+﻿dapr run --app-id weatherapi --app-port 5001 --dapr-http-port 50001 dotnet run
+
+url to check dapr output of api:
+Note: weatherapi is an appid
+http://localhost:50001/v1.0/invoke/weatherapi/method/Weatherforecast
+Go to cmd and c drive: dapr dashboard
